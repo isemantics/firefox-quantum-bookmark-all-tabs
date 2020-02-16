@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Isemantics: Bookmark all tabs button",
+  "version": "1.0",
+  "description": "Button to bookmark all current open tabs",
+  "homepage_url": "https://github.com/isemantics/firefox-quantum-bookmark-all-tabs",
+  "icons": {
+    "48": "icons/bookmark-all-tabs.png",
+    "96": "icons/bookmark-all-tabs@2x.png"
+  },
+  "permissions": [
+    "bookmarks",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icons/star-empty-19.png",
+    "default_title": "Isemantics: Bookmark all tabs"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
